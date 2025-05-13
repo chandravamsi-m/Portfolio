@@ -12,13 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Questrial&display=swap"
       rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <!-- boxicons -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"/>
   </head>
   <body>
-    <!-- header -->
     <header class="header">
       <a href="#" class="logo"><span>vamsi</span></a>
       <i class="bx bx-menu" id="menu-icon"></i>
@@ -31,7 +29,6 @@
       </nav>
     </header>
 
-    <!-- Home Section -->
     <section class="home" id="home">
       <div class="theme-selection">
         <button class="theme-btn" style="background-color: #0ef;" data-color="#0ef"></button>
@@ -48,7 +45,6 @@
       </div> 
     </section>
 
-    <!-- about -->
     <section class="about" id="about">
       <div class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
@@ -62,7 +58,6 @@
       </div>
     </section>
 
-    <!-- skills -->
     <section class="skills" id="skills">
       <h2 class="heading">Technical <span>Skills</span></h2>
       <div class="skills-container">
@@ -128,7 +123,6 @@
   <section class="project" id="projects">
     <h2 class="heading">My <span>Projects</span></h2>
     <div class="project-container">
-      <!-- Todo Management App -->
       <div class="project-box">
         <img src="./images/todo.jpg" alt="Todo Management App" />
         <div class="project-layer">
@@ -136,7 +130,6 @@
           <p>A real-time todo management application with JWT authentication and secure APIs.</p>
         </div>
       </div>
-      <!-- Banking Application -->
       <div class="project-box">
         <img src="images/banking.jpg" alt="Banking Application" />
         <div class="project-layer">
@@ -144,7 +137,6 @@
           <p>A set of REST APIs for banking operations like account creation, transactions, and fund transfers.</p>
         </div>
       </div> 
-      <!-- Expense Tracker -->
       <div class="project-box">
         <img src="images/expenses.jpg" alt="Expense Tracker" />
         <div class="project-layer">
@@ -152,7 +144,6 @@
           <p>A comprehensive expense tracking application to help users manage finances, supporting REST APIs and documentation.</p>
         </div>
       </div> 
-      <!-- Portfolio Website -->
       <div class="project-box">
         <img src="images/portfolio.jpg" alt="Portfolio Website" />
         <div class="project-layer">
@@ -163,7 +154,6 @@
     </div>
   </section>
 
-    <!-- contact -->
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
       <form action="mailto:chandravamsi.malluru@gmail.com" method="post" enctype="text/plain">
@@ -180,7 +170,6 @@
       </form>
     </section>
 
-    <!-- footer -->
     <footer class="footer">
       <div class="footer-text">
         <p>Copyright &copy; 2025 by Chandravamsi M| All Rights Reserved|</p>
@@ -190,35 +179,8 @@
       </div>
     </footer>
 
-    <!-- Scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- typed js -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <!-- custom js -->
     <script src="script.js"></script>
-    
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-analytics.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-    
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyCFq2ehgBVdsGhMU-cu0CgmgciC-WcmFpw",
-        authDomain: "chandravamsi-portfolio.firebaseapp.com",
-        projectId: "chandravamsi-portfolio",
-        storageBucket: "chandravamsi-portfolio.firebasestorage.app",
-        messagingSenderId: "18824627582",
-        appId: "1:18824627582:web:32bedfa9e3a9291e741f2f",
-        measurementId: "G-YTYPGHQSEY"
-      };
-    
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
-    </script>
   </body>
 </html>
